@@ -7,8 +7,24 @@
 }
 
 body {
-    font-family: 'Montserrat', Oswald;
+    font-family: 'Montserrat', Oswald, sans-serif;
     font-weight: 100;
-    color: #3a3a3a;
+    color: #0053B1;
+}
+
+/* Logo and headings */
+
+h1, h2 {
+    font-family: 'Montserrat', Oswald, sans-serif;
+    text-transform: uppercase;
+    letter-spacing: 4px;
+    color: #003169;
+
+}
+
+#logo {
+    float: left;
+    font-size: 240%;
+    margin-left: 30px;
 }
 
