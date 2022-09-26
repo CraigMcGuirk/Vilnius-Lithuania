@@ -9,16 +9,17 @@
 body {
     font-family: 'Montserrat', Oswald, sans-serif;
     font-weight: 100;
-    color: #0053B1;
+    color: #002046;
 }
 
 /* Logo and headings */
 
-h1, h2 {
+h1,
+h2 {
     font-family: 'Montserrat', Oswald, sans-serif;
     text-transform: uppercase;
     letter-spacing: 4px;
-    color: #003169;
+    color: #ab3c00;
 
 }
 
@@ -27,6 +28,7 @@ h1, h2 {
     font-size: 240%;
     margin-left: 30px;
 }
+
 /* Nav links*/
 
 #menu {
@@ -34,7 +36,8 @@ h1, h2 {
     letter-spacing: 4px;
 }
 
-#menu, #logo {
+#menu,
+#logo {
     line-height: 90px;
 }
 
@@ -50,9 +53,38 @@ h1, h2 {
 }
 
 #menu a:hover {
-    border-bottom: 1px solid #003169;
+    border-bottom: 1px solid #ab3c00;
 }
 
-.active {
-    border-bottom: 1px solid #003169;
+/* Vilnius backdrop, main image*/
+
+#Vilnius-zoom {
+    height: 600px;
+    width: 100%;
+    overflow: hidden;
+}
+
+#vilnius {
+    height: 600px;
+    width: 100%;
+    background-image: url('../images/sarunas-gedvilas-sb_huDX8sXw-unsplash\ \(1\).jpg');
+
+    /* animates zoom effect on loading page*/
+    animation: vilnius-zoom;
+    animation-duration: 5s;
+    animation-fill-mode: forwards;
+}
+
+/* Level of zoom for main image*/
+
+@keyframes vilnius-zoom {
+    from {
+        transform: scale(1)
+    }
+
+    to {
+        transform: scale(1.1);
+
+    }
+
 }
