@@ -19,7 +19,7 @@ h2 {
     font-family: 'Montserrat', Oswald, sans-serif;
     text-transform: uppercase;
     letter-spacing: 4px;
-    color: #ab3c00;
+    color: rgb(0, 109, 146);
 
 }
 
@@ -53,7 +53,7 @@ h2 {
 }
 
 #menu a:hover {
-    border-bottom: 1px solid #ab3c00;
+    border-bottom: 1px solid #3a3a3a;
 }
 
 /* Vilnius backdrop, main image & cover text*/
@@ -67,7 +67,7 @@ h2 {
 }
 
 #cover-text, #cover text h2 {
-    color: #fff;
+    color: #000000;
 
 }
 
@@ -126,18 +126,51 @@ h2 {
     padding-top: 30px;
     width: 33%;
     float: left;
-    background-color: blue;
 }
 
 #right-facts {
     padding-top: 30px;
     width: 33%;
     float: right;
-    background-color: gray;
 }
 
 #center-image {
     width: 33%;
     margin: 0 auto;
     background-color: aquamarine;
+}
+
+hr {   
+    border-top: 1px solid #3a3a3a;
+    width: 100%;
+    margin: 5px 0;
+}
+
+.left-facts-heading {
+    width: 80%;
+    float: right;
+    line-height: 40px;
+    clear: both;
+    margin-bottom: 50px;
+}
+
+.left-facts-heading h2 {
+    text-align: center;
+}
+
+
+.right-facts-heading {
+    width: 80%;
+    float: left;
+    line-height: 40px;
+    clear: both;
+    margin-bottom: 80px;
+}
+
+.right-facts-heading h2 {
+    text-align: center;
+}
+
+.right-facts-heading p {
+    text-align: right;
 }
