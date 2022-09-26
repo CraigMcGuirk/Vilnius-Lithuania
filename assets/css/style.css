@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100&family=Oswald&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@200&family=Oswald&display=swap');
 
 * {
     margin: 0;
@@ -108,10 +108,36 @@ h2 {
     padding-top: 40px;
     padding-left: 10px;
 
-    background-color: rgba(167, 220, 250, 0.6);
+    background-color: rgba(217, 241, 255, 0.4);
 
     bottom: 30px;
     right: 150px;
 
     position: absolute;
+}
+
+/*Old town*/
+
+#old-town {
+    height: 600px;
+}
+
+#left-facts {
+    padding-top: 30px;
+    width: 33%;
+    float: left;
+    background-color: blue;
+}
+
+#right-facts {
+    padding-top: 30px;
+    width: 33%;
+    float: right;
+    background-color: gray;
+}
+
+#center-image {
+    width: 33%;
+    margin: 0 auto;
+    background-color: aquamarine;
 }
