@@ -197,3 +197,23 @@ hr {
     height: 100%;
     border-radius: 50%;
 }
+
+/* Information aboiut national parks in vilnius */
+
+#national-parks-title {
+    width: 33%;
+    margin: 0 auto;
+    
+}
+
+
+#national-parks {
+    background-image: url('../images/jacob-kiesow-wxDoZRigMxE-unsplash.jpg'); 
+    background-size: cover;
+    background-position: center;
+    width: 100%;
+    height: 400px;
+    overflow: hidden;
+
+}
+
