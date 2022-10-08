@@ -208,12 +208,34 @@ hr {
 
 
 #national-parks {
-    background-image: url('../images/jacob-kiesow-wxDoZRigMxE-unsplash.jpg'); 
+    background-image: url('../images/gabriele-stravinskaite-at6EMvdVELI-unsplash\ \(1\).jpg'); 
     background-size: cover;
     background-position: center;
     width: 100%;
-    height: 400px;
+    height: 600px;
     overflow: hidden;
-
 }
+
+#national-parks div { 
+    color: antiquewhite;
+    background-color: rgba(0, 0, 0, 0.6);
+    height: 180px;
+    padding: 20px 0 0 20px;
+    border: 2px solid white;
+    box-sizing: border-box;
+    
+}
+
+#national-parks h2 {
+    color: antiquewhite;
+    font-size: 30px;
+}
+
+#parks-title {
+    text-align: center;
+    background-color: rgba(0, 0, 0, 0.6);
+    padding: 20px;
+}
+
+
 
