@@ -270,3 +270,36 @@ footer {
 #photos > img {
     width: 100%;
 }
+
+/* Media queries */
+
+/* For larger to medium screens 1200px wide and below */
+@media screen and (max-width: 1200px) {
+    #old-town {
+        width: 65%;
+        height: 1200px;
+        margin: 0 auto;
+    }
+
+    #ld-town-facts {
+        padding: 30px 0;
+        margin: 0;
+    }
+
+    #left-facts, #right-facts {
+        width: 100%;
+        float: left;
+        padding: 0;
+    }
+
+    #center-image {
+        clear: both;
+        width: 100%;
+        float: left;
+        padding: 0;
+    }
+
+    hr {
+        display: none;
+    }
+}
