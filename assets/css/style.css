@@ -98,13 +98,13 @@ h2 {
 }
 
 #cover-text {
-    font-size: 130%;
+    font-size: 80%;
     font-family: 'Montserrat', Oswald, sans-serif;
     text-transform: uppercase;
     letter-spacing: 4px;
 
-    width: 300px;
-    height: 200px;
+    width: 200px;
+    height: 100px;
 
     padding-top: 40px;
     padding-left: 10px;
@@ -203,12 +203,12 @@ hr {
 #national-parks-title {
     width: 33%;
     margin: 0 auto;
-    
+
 }
 
 
 #national-parks {
-    background-image: url('../images/gabriele-stravinskaite-at6EMvdVELI-unsplash\ \(1\).jpg'); 
+    background-image: url('../images/gabriele-stravinskaite-at6EMvdVELI-unsplash\ \(1\).jpg');
     background-size: cover;
     background-position: center;
     width: 100%;
@@ -216,19 +216,24 @@ hr {
     overflow: hidden;
 }
 
-#national-parks div { 
+#national-parks div {
     color: white;
     background-color: rgba(0, 0, 0, 0.6);
     height: 180px;
     padding: 20px 0 0 20px;
     border: 2px solid white;
     box-sizing: border-box;
-    
+
 }
 
 #national-parks h2 {
     color: white;
-    font-size: 30px;
+    font-size: 15px;
+}
+
+#national-parks h3 {
+    color: white;
+    font-size: 15px;
 }
 
 #parks-title {
@@ -247,7 +252,7 @@ footer {
     text-align: center;
 }
 
-.social-networks > li {
+.social-networks>li {
     display: inline;
 }
 
@@ -255,7 +260,7 @@ footer {
     font-size: 160%;
     margin: 1%;
     padding: 5%;
-    color:  #002046;
+    color: #002046;
 }
 
 /* Scenery page*/
@@ -267,7 +272,7 @@ footer {
     line-height: 0;
 }
 
-#photos > img {
+#photos>img {
     width: 100%;
 }
 
@@ -281,12 +286,13 @@ footer {
         margin: 0 auto;
     }
 
-    #ld-town-facts {
+    #Old-town-facts {
         padding: 30px 0;
         margin: 0;
     }
 
-    #left-facts, #right-facts {
+    #left-facts,
+    #right-facts {
         width: 100%;
         float: left;
         padding: 0;
@@ -298,11 +304,11 @@ footer {
         padding: 0;
     }
 
-    #national-parks > div {
+    #national-parks>div {
         width: 100%;
         clear: both;
         height: 180px;
-        padding: 0;
+        padding-left: 10px;
 
     }
 
@@ -323,27 +329,34 @@ footer {
         line-height: 25px;
     }
 
-    #cover-text {
-        left: 0;
-    }
-
     #old-town {
         width: 90%;
-        height: 1200px;
+        height: unset;
         margin: 0 auto;
     }
 
-    .left-facts-heading, .right-facts-heading {
+    .left-facts-heading,
+    .right-facts-heading {
         width: inherit;
     }
 
-    .left-facts-heading h2, .right-facts-heading h2 {
+    .left-facts-heading h2,
+    .right-facts-heading h2 {
         width: 100%;
         text-align: center;
     }
 
-    .left-facts-heading p, .right-facts-heading p {
+    .left-facts-heading p,
+    .right-facts-heading p {
         text-align: center;
         padding: 0 20px;
+    }
+
+}
+
+/* For small screen sizes below 800px width */
+@media screen and (max-width: 800px) {
+    #photos {
+        column-count: 2;
     }
 }
