@@ -298,6 +298,14 @@ footer {
         padding: 0;
     }
 
+    #national-parks > div {
+        width: 100%;
+        clear: both;
+        height: 180px;
+        padding: 0;
+
+    }
+
     hr {
         display: none;
     }
