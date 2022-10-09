@@ -258,3 +258,15 @@ footer {
     color:  #002046;
 }
 
+/* Scenery page*/
+
+#photos {
+    clear: both;
+    column-gap: 0;
+    column-count: 3;
+    line-height: 0;
+}
+
+#photos > img {
+    width: 100%;
+}
