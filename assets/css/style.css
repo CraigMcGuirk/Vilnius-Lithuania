@@ -219,7 +219,7 @@ hr {
 #national-parks div {
     color: white;
     background-color: rgba(0, 0, 0, 0.6);
-    height: 180px;
+    height: 190px;
     padding: 20px 0 0 20px;
     border: 2px solid white;
     box-sizing: border-box;
@@ -241,6 +241,7 @@ hr {
     background-color: rgba(0, 0, 0, 0.6);
     padding: 20px;
 }
+
 
 /* Footer */
 
@@ -363,10 +364,12 @@ footer {
     #national-parks>div {
         width: 100%;
         clear: both;
-        height: 180px;
+        height: 190px;
         padding-left: 10px;
 
     }
+
+
 
     hr {
         display: none;
@@ -408,6 +411,7 @@ footer {
         padding: 0 20px;
     }
 
+   
 }
 
 /* For small screen sizes below 800px width */
@@ -415,4 +419,5 @@ footer {
     #photos {
         column-count: 2;
     }
+
 }
