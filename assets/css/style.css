@@ -87,11 +87,11 @@ h2 {
 
 @keyframes vilnius-zoom {
     from {
-        transform: scale(1)
+        transform: scale(0.9)
     }
 
     to {
-        transform: scale(1.1);
+        transform: scale(1.0);
 
     }
 
@@ -395,6 +395,25 @@ footer {
         line-height: 25px;
     }
 
+    #cover-text {
+        font-size: 80%;
+        font-family: 'Montserrat', Oswald, sans-serif;
+        text-transform: uppercase;
+        letter-spacing: 4px;
+
+        width: 200px;
+        height: 100px;
+
+        padding-top: 40px;
+        padding-left: 10px;
+
+        background-color: rgba(217, 241, 255, 0.9);
+
+        bottom: 30px;
+        float: right;
+        position: relative;
+    }
+
     #old-town {
         width: 90%;
         height: unset;
@@ -433,22 +452,5 @@ footer {
         margin: 10px;
     }
 
-    #cover-text {
-        font-size: 80%;
-        font-family: 'Montserrat', Oswald, sans-serif;
-        text-transform: uppercase;
-        letter-spacing: 4px;
 
-        width: 200px;
-        height: 100px;
-
-        padding-top: 40px;
-        padding-left: 10px;
-
-        background-color: rgba(217, 241, 255, 0.9);
-
-        bottom: 30px;
-        float: left;
-        position: absolute;
-    }
 }
