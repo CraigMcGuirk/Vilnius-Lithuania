@@ -135,7 +135,7 @@ I tested all internal links and they worked correctly.
 All external links were tested and they opened on a new tab correctly.
 
 ## Fixed Bugs: 
-Menu items were not displaying correctly on smaller screen sizes, I made the font size of the page title smaller in order to give the menu items more brething space.
+Menu items were not displaying correctly on smaller screen sizes, I made the font size of the page title smaller in order to give the menu items more breathing space.
 
 ## Known Bugs:
 
