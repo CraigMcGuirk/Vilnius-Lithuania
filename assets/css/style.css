@@ -75,7 +75,9 @@ h2 {
 #vilnius {
     height: 600px;
     width: 100%;
-    background-image: url('../images/sarunas-gedvilas-sb_huDX8sXw-unsplash\ \(1\).jpg');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-image: url('../images/dovydas-zilinskas-nBOXGN1_kVk-unsplash.jpg');
 
     /* animates zoom effect on loading page*/
     animation: vilnius-zoom;
